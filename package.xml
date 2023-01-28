@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lightning Flow Sample Pack %28Unmanaged%29</fullName>
+    <description>Sample utility and client-facing flows that illustrate how to use Lightning Flow with Community Cloud.</description>
+    <orgFeaturePayloads>
+        <dependencyDetectionType>A</dependencyDetectionType>
+        <feature>Product</feature>
+        <referencedByEntity>Flow</referencedByEntity>
+        <referencedByName>Register_New_Product</referencedByName>
+    </orgFeaturePayloads>
+    <orgFeaturePayloads>
+        <dependencyDetectionType>A</dependencyDetectionType>
+        <feature>Flow</feature>
+        <referencedByEntity>Flow</referencedByEntity>
+        <referencedByName>Get_Community_User_CRM_Data</referencedByName>
+    </orgFeaturePayloads>
+    <orgFeaturePayloads>
+        <dependencyDetectionType>A</dependencyDetectionType>
+        <feature>Flow</feature>
+        <referencedByEntity>Flow</referencedByEntity>
+        <referencedByName>Register_New_Product</referencedByName>
+    </orgFeaturePayloads>
+    <orgFeaturePayloads>
+        <dependencyDetectionType>A</dependencyDetectionType>
+        <feature>PRM</feature>
+        <referencedByEntity>Flow</referencedByEntity>
+        <referencedByName>Get_Community_User_CRM_Data</referencedByName>
+    </orgFeaturePayloads>
+    <types>
+        <members>Customer_Success_Register_New_Product</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Get_Community_User_CRM_Data-2</members>
+        <members>Register_New_Product-2</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <version>42.0</version>
+</Package>
